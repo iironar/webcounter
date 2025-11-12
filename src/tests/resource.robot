@@ -24,3 +24,12 @@ Open And Configure Browser
         Set Selenium Speed  ${DELAY}
     END
     Open Browser  browser=${BROWSER}  options=${options}
+
+Reset counter to zero
+    Go To  ${HOME_URL}
+    Click Button  Nollaa
+
+Open And Configure Browser and Reset counter to zero
+    Open And Configure Browser
+    Reset counter to zero
+
